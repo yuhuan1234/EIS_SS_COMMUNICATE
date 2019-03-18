@@ -1,0 +1,54 @@
+create table Msg_Type1(
+  Msg_ID int PRIMARY KEY AUTO_INCREMENT,
+  Msg_Type varchar(10) DEFAULT 1,
+  Transmitter_ID varchar(10),
+  Receiver_ID varchar(10),
+  Date varchar(20),
+  Time varchar(20),
+  Available varchar(10),
+  Station_Type varchar(10)
+);
+
+
+create table Msg_Type2(
+  Msg_ID int PRIMARY KEY AUTO_INCREMENT,
+  Msg_Type varchar(10) DEFAULT 2,
+  Transmitter_ID varchar(10),
+  Receiver_ID varchar(10),
+  Date varchar(20),
+  Time varchar(20),
+
+  Sensor_Latitude varchar(20),
+  Sensor_Longitude varchar(20),
+  Sensor_State varchar(20),
+  Sensor_Type varchar(20),
+  Intruder_Type varchar(20),
+  Sensor_ID varchar(20),
+  Altitude varchar(20)
+);
+
+
+
+
+create table Msg_Type3(
+  Msg_ID int PRIMARY KEY AUTO_INCREMENT,
+  Msg_Type varchar(10) DEFAULT 3,
+  Transmitter_ID varchar(10),
+  Receiver_ID varchar(10),
+  Date varchar(20),
+  Time varchar(20),
+  Group_ID varchar(20),
+  Group_Name varchar(40),
+  Group_State varchar(20)
+);
+
+
+
+
+
+
+
+
+
+
+
