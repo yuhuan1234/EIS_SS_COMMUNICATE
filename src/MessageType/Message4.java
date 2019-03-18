@@ -2,7 +2,7 @@ package MessageType;
 
 import java.io.Serializable;
 
-public class Message4 extends Message implements Serializable{
+public class Message4  implements Serializable{
 
 	private int id;
 	private String text;
